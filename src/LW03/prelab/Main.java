@@ -118,6 +118,7 @@ public class Main {
         System.out.println("Failed sales : " + failedSales);
 
         scanner.close();
+        
 
     }
     

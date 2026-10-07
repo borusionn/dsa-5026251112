@@ -52,7 +52,7 @@ public class Main {
             String drink = order[2];
 
 
-            int foodStock = 1;
+            int foodStock = 1; 
             int drinkStock = 1;
 
             if (!food.equals("-")) {
