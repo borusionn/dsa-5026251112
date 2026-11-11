@@ -1,4 +1,3 @@
-
 package LW04.Unguided;
 
 import java.io.InputStream;
@@ -29,7 +28,6 @@ public class Main {
                 targets[i] = scanner.nextInt();
             }
 
-            // Bubble Sort Descending
             int[] afterTwoPasses = new int[n];
 
             for (int i = 0; i < n - 1; i++) {
@@ -41,7 +39,6 @@ public class Main {
                     }
                 }
 
-                // Salin array tepat setelah pass kedua
                 if (i == 1) {
                     for (int k = 0; k < n; k++) {
                         afterTwoPasses[k] = parcels[k];
@@ -75,7 +72,6 @@ public class Main {
         }
     }
 
-    // Binary Search Descending
     private static int[] binarySearch(int[] parcels, int target) {
         int low = 0;
         int high = parcels.length - 1;
