@@ -66,15 +66,15 @@ public class Main {
 
         int target = sc.nextInt();
 
-        System.out.println("Preorder :");
+        System.out.print("Preorder :");
         preorder(root);
         System.out.println();
 
-        System.out.println("Inorder :");
+        System.out.print("Inorder :");
         inorder(root);
         System.out.println();
 
-        System.out.println("Postorder :");
+        System.out.print("Postorder :");
         postorder(root);
         System.out.println();
 
